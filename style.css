@@ -15,15 +15,6 @@ body{
   flex-direction: column;
 }
 
-/*.confused{
-  display: flex;
-  flex-direction: row;
-}*/
-
-/*.sort{
-  display: flex;
-  flex-direction: column;
-}*/
 
 section .Heading{
 	 display: flex;
@@ -70,10 +61,14 @@ section .basic{
   font-size: 14px;
   font-family: Papyrus;
 }
+
 p{
   text-align: center;
   font-size: 14px;
    font-family: Papyrus;
+margin: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 section .charInfo{
@@ -98,7 +93,7 @@ section .charInfo{
 article{
       display: flex;
       flex-direction: row;
-			margin: 2%;
+	margin: 2%;
 }
     
 
@@ -119,9 +114,6 @@ section .box{
 	margin: 10px;
 	box-sizing: border-box;
 	display: inline;
-  background-color: #6851d6;
-	
-	
 }
 
  section .charName{
@@ -155,11 +147,6 @@ aside{
   background-color: #00aaffbd;
  }  
 
-section p{
-	margin: 10px;
-}
-
-
 button:hover{
   outline: 2px double #1f26ea;
 }
@@ -174,6 +161,7 @@ button:hover{
   width: 800px;
   margin-left: 110px; 
 }
+
 #look{
   border: 1px ridge black;
   border-radius: 5px;
